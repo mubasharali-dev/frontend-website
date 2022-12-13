@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  .p-desc h1 {
+    font-size: 2rem;
+    padding: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .p-desc p {
+    font-size: 1rem;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .card-body {
+    margin-top: 0;
+    margin-right: 0;
+    position: relative;
+    padding-left: 1rem;
+  }
+  .course-desc p {
+    width: 25%;
+    margin-right: 50px;
+  }
+}
